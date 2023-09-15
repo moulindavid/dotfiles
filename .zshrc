@@ -25,3 +25,5 @@ export PATH=~/.npm-global/bin:$PATH
 export PATH="/home/damou/.turso:$PATH"
 # air
 alias air='$(go env GOPATH)/bin/air'
+# Dotfiles repo
+alias config='/usr/bin/git --git-dir=/home/damou/.dotfiles/ --work-tree=/home/damou'
