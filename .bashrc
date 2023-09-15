@@ -118,3 +118,6 @@ fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 . "$HOME/.cargo/env"
+
+# Dotfiles repo alias
+alias config='/usr/bin/git --git-dir=/home/damou/.dotfiles/ --work-tree=/home/damou'
